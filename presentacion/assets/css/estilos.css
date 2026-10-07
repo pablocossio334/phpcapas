@@ -1,0 +1,61 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #08080c;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background: #182235;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .estado-sesion {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-left: auto;
+        }
+
+        .estado-sesion form {
+            margin: 0;
+        }
+
+        .boton {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #182235;
+            color: white;
+            border: 1px solid #00d4ff;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            font: inherit;
+        }
+
+        .boton:hover {
+            background: #00d4ff;
+            color: #08080c;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
